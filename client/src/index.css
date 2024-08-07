@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+
+}
+
+input,textarea{
+  min-height: 45px !important;
+  border: 1px solid #b9b9b9 !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+input:focus,textarea:focus{
+  outline: #e6a834 !important;
+  border:1px solid #b9b9b9 !important;
+  width: 100% !important;
+}
+
+select,select:focus{
+  min-height: 45px !important;
+  font-size: 18px;
+  
+}
+button{
+  height: 45px !important;
+  box-shadow: none !important;
+}
+
+.custom-checkbox .ant-checkbox-wrapper {
+  font-size: 18px !important; /* Adjust the size as needed and use !important to override */
+}
+
+table{
+  border: #a1a1a1 1px solid !important;
+  border-radius: 2px;
+}
+
+i{
+  font-size: 18px;
+}
